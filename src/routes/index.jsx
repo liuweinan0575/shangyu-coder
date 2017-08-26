@@ -50,10 +50,11 @@ const columns = [
 
 const data = [
   { title: '基础打字&信息技术', a: '14', b: '2000', c: '拼音打字和基本信息技术', key: '1' },
-  { title: '编程基础课程（上）', a: '18', b: '3000', c: '基础编程知识，解决各种数学问题', key: '3' },
-  { title: '编程基础课程（下）', a: '18', b: '3000', c: '编程中级知识，完成控制台小程序', key: '4' },
-  { title: '图形化程序开发', a: '35', b: '6500', c: '图形化小程序，为idea共创打下基础', key: '5' },
-  { title: '信息竞赛(长期)', a: '15', b: '3000', c: '长期性的信息竞赛辅导', key: '6' }
+  { title: '编程基础课程（上）', a: '18', b: '3000', c: '基础编程知识，解决各种数学问题', key: '2' },
+  { title: '编程基础课程（下）', a: '18', b: '3000', c: '编程中级知识，完成控制台小程序', key: '3' },
+  { title: '图形化程序开发', a: '35', b: '6500', c: '图形化小程序，为idea共创打下基础', key: '4' },
+  { title: 'Scratch儿童编程', a: '30', b: '6000', c: '适合小年纪，与国际接轨的', key: '5' },
+  { title: '信息竞赛(高级)', a: '15', b: '3000', c: '长期性的信息竞赛辅导', key: '6' }
 ];
 function Index({ location }) {
   return (
@@ -97,7 +98,7 @@ function Index({ location }) {
         <div className={styles.bottomLine} style={{width:'100%'}}>
           码代（上虞）地址：谢塘镇易居公馆</div>
         <div>
-          <a className={styles.grey} href="tel:15867164299">
+          <a className={styles.grey} href="tel:18868136291">
               技术支持:杭州乾坤网络科技有限公司
               <br />
               上虞区经理王女士：18868136291
